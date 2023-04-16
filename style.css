@@ -332,7 +332,8 @@ body.light {
     flex-direction: column;
   }
   .container .card {
-    width: 135%;
+    width: 105%;
+    margin-bottom: 20px;
   }
   .container .card .from {
     margin-right: 0;
@@ -352,12 +353,11 @@ body.light {
   }
   label[for="upload-document"] span#upload-title {
     margin-left: 20px;
-    margin-right: 20px;
   }
   .card-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
   }
   .card-bottom .download-btn {
@@ -370,10 +370,12 @@ body.light {
 
   .card-bottom .speech-btn {
     margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .swap-position {
-    top: 50%;
-    left: 65%;
+    top: 55%;
+    left: 51%;
     transform: translate(-50%, -50%);
   }
   .swap-position:hover {
